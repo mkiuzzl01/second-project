@@ -1,5 +1,7 @@
 * {
   text-decoration: none;
+  margin:0;
+  padding:0;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -60,10 +62,7 @@ margin-bottom:0px;
 }
 .banner-discription{
  color: #757575;
- font-size: 18px;
- font-weight: 400;
- line-height: 30px;
- margin-top:0px;
+ max-width:500px;
 
 }
 .Secondary_Button {
@@ -80,7 +79,7 @@ margin-bottom:0px;
 .banner {
   display: flex;
   padding:30px 30px 0px 150px;
-  justify-content: space-around;
+  justify-content: space-between;
   background-image: url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -89,4 +88,55 @@ margin-bottom:0px;
 
 .bannerImg .ProfilePic{
     width:500px;
+}
+/* main section relatade style */
+/* About Related style */
+main{
+  max-width:1140px;
+  margin:0 auto;
+}
+.aboutSection{
+  background-color:#FFF8F3;
+  text-align: center;
+  margin-top: 120px;
+}
+.sectionTitle{
+ color: #181818;
+ font-size: 35px; 
+ padding:130px 150px 0px 150px;
+}
+.sectionDiscription{
+ color: #757575;
+ font-size: 18px;
+ padding:30px 130px 30px 130px ;
+}
+.aboutInfo-container{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 130px;
+}
+.infoTitle{
+  color: #757575;
+  font-size: 20px; 
+  
+}
+/* What do Section */
+.whatDo-Section{
+  text-align: center;
+}
+/* card-Section */
+.Card-Container{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width:270;
+  height:380;
+  padding:35px;
+  gap:20px;
+ 
+}
+.card-discription{
+  color: #757575;
+  font-size: 16px; 
 }
